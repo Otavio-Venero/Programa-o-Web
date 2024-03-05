@@ -1,0 +1,22 @@
+
+tr{
+    color :black;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100% !important;
+    background-color: white;
+}
+td{
+    text-align: center;
+}
+body{
+    background-color: cyan;
+}
+u{
+    background-color: aquamarine;
+}
