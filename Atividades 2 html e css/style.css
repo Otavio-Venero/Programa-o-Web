@@ -1,0 +1,42 @@
+/*Regra CSS:
+    Seletor{
+     propriedade : valor;
+     ... : ...;
+    }
+*/
+body{
+    background-color: azure;
+}
+table, td{
+    border: 2px black;
+    border-style: outset;
+    border-collapse: collapse;
+    
+}
+th, caption{
+    border: 1px solid purple;
+}
+
+thead{
+    background-color: violet;
+}
+img{
+    width: 200px;
+    display: block;
+}
+ul,ol{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+/*div{
+    border: 10;
+}*/
+#box1{
+    width: 300px;
+    height: 300px;
+    border: 1px dashed coral;
+    background-color: lightgreen;
+    background-image: url(transferir.png);
+    background-size: 10px;
+}
