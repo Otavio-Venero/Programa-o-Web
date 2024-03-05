@@ -4,6 +4,7 @@ tr{
 }
 
 table, th, td{
+    background-color: aquamarine;
     border: 1px solid black;
     border-collapse: collapse;
 }
