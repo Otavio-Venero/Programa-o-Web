@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+/*controla onde o elemento fica na horizontal*/
+    /*justify-content: space-evenly;*/
+/*controla onde o elemento fica na vertical*/
+   /*align-items: center;*/
+    border: 1px solid black;
+    align-content: stretch;
+}
+.box{
+    border: 2px solid black;
+    flex-shrink: 0;
+    min-width: 30px;
+    flex-grow: 1;
+    transition: 3s;
+}
+.box:hover{
+    flex-grow: 1;
+}
